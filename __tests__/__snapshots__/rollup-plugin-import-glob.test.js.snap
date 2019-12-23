@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ends up importing both a.js and b.js 1`] = `
+"'use strict';
+
+const a = 1;
+
+const a2 = 3;
+
+var a$1 = /*#__PURE__*/Object.freeze({
+	__proto__: null,
+	'default': a,
+	a2: a2
+});
+
+const b = 2;
+
+var b$1 = /*#__PURE__*/Object.freeze({
+	__proto__: null,
+	'default': b
+});
+
+
+
+var files = /*#__PURE__*/Object.freeze({
+	__proto__: null,
+	file0: a$1,
+	file1: b$1
+});
+
+module.exports = files;
+"
+`;

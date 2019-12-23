@@ -1,0 +1,27 @@
+{
+  "name": "@jackfranklin/rollup-plugin-import-glob",
+  "version": "0.1.0",
+  "description": "Import a glob of files using Rollup",
+  "main": "src/rollup-plugin-import-glob.js",
+  "fles": [
+    "src/"
+  ],
+  "scripts": {
+    "test": "jest rollup-plugin-import-glob.test.js"
+  },
+  "keywords": [
+    "markdown",
+    "rollup"
+  ],
+  "author": "Jack Franklin",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "prettier": "^1.19.1",
+    "rollup": "^1.27.14"
+  },
+  "dependencies": {
+    "glob": "^7.1.6",
+    "tmp": "^0.1.0"
+  }
+}
